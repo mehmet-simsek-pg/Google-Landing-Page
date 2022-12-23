@@ -1,0 +1,158 @@
+@import "./index.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.left {
+  float: left;
+  padding: 15px 15px 0 15px;
+}
+
+.right {
+  float: right;
+  padding: 12px 15px 0 15px;
+}
+
+.icon a img {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.icon a img:hover {
+  border: 5px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 2px gray;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.signIn-btn button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  width: 70px;
+  height: 30px;
+  font-weight: 700;
+  border-radius: 2px;
+}
+.signIn-btn button:hover {
+  border: 5px solid rgb(118, 118, 235);
+
+  box-shadow: 1px 0 0.2px rgb(60, 60, 192);
+}
+.clear_div {
+  clear: both;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+}
+
+.title img {
+  display: block;
+  margin: 0px auto;
+  margin-top: 107px;
+  margin-bottom: 25px;
+}
+
+.search_bar {
+  width: 580px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: -8px;
+  text-align: center;
+}
+
+.search_bar input {
+  display: block;
+  border: 1px solid #ddd;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  padding: 13px;
+  padding-left: 45px;
+  border-radius: 25px;
+  width: 100%;
+  transition: box-shadow 100ms;
+  outline: none;
+}
+
+.search_bar input:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05),
+    0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.search_icon {
+  width: 20px;
+  opacity: 0.4;
+  position: absolute;
+  top: 13px;
+  left: 24px;
+}
+
+.google_mic {
+  width: 14px;
+  position: absolute;
+  top: 13px;
+  right: 24px;
+}
+
+.google_search,
+.feel_btn {
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  color: #666;
+  font-size: 14px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 28px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 100ms;
+}
+
+.google_search:hover,
+.feel_btn:hover {
+  border: 1px solid #aaa;
+}
+
+.language h4 {
+  color: black;
+  font-size: 14px;
+  line-height: 39.5px;
+  font-weight: 400;
+  padding-left: 29px;
+  display: inline-block;
+}
+
+.language a {
+  color: blue;
+  display: inline-block;
+  padding: 12px 11.3px;
+  font-size: 14px;
+}

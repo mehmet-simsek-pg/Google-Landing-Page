@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,100;1,400;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+:root {
+
+ --color-black: rgb(0, 0, 0);
+ --color-blue: rgb(97, 97, 239);
+ --color-white: rgb(255, 255, 255);
+
+  --ff-montserrat: 'Montserrat', sans-serif;
+  --ff-lato: 'Lato', sans-serif;
+  --ff-open: 'Open', sans-serif;
+}
