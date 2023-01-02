@@ -156,3 +156,27 @@ main {
   padding: 12px 11.3px;
   font-size: 14px;
 }
+
+footer {
+  background-color: var(--color-footer);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 40px;
+}
+
+.footer-country {
+  padding-left: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid var(--color-footer-line);
+}
+
+.footer-bottom-left {
+  float: left;
+  padding-left: 16px;
+}
+
+.footer-bottom-right {
+  float: right;
+}
+
